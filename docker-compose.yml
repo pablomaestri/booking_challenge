@@ -1,0 +1,20 @@
+services:
+  paytientChallenge:
+    image: gradle:jdk18
+    hostname: bookingChallenge
+    working_dir: /usr/src/app
+    volumes: [ .:/usr/src/app ]
+    command: gradle bootRun
+    mem_limit: 4096MB
+    networks: [ myNet ]
+    depends_on: [ ]
+    environment:
+      APP_NAME: booking-challenge
+    ports:
+      - "8080:8080"
+
+
+
+networks:
+  myNet:
+    name: myNet
