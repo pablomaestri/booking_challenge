@@ -2,8 +2,6 @@ package com.psm.bookingchallenge.dtos;
 
 import com.psm.bookingchallenge.dtos.responses.DataDTO;
 
-import java.util.List;
-
 public class PropertyDTO implements DataDTO {
 
     private Long id;

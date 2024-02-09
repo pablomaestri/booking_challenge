@@ -2,12 +2,9 @@ package com.psm.bookingchallenge.factories.dtos;
 
 import com.psm.bookingchallenge.dtos.PropertyDTO;
 import com.psm.bookingchallenge.dtos.PropertyDateBlockDTO;
-import com.psm.bookingchallenge.factories.models.PropertyFactory;
-import com.psm.bookingchallenge.models.Property;
 import com.psm.bookingchallenge.models.PropertyDateBlock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

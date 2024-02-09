@@ -19,7 +19,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import java.util.*;
 
 @Service
@@ -64,7 +63,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
             userSecurity.setuPassword(user.getPassword());
             userSecurity.setuAuthorities(generateGrantedAuthorities(roleDTOFactory.createList(user.getRoles())));
             return userSecurity;
-
         }
         return null;
     }
@@ -119,7 +117,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
             if (!user.get().getPassword().equals(userDTO.getPassword())) {
                 userDTO.setPassword(passwordEncoder.encode(userDTO.getPassword()));
             }
-
         }
         User user = userFactory.create(userDTO);
         if (user.getId() != null) {
@@ -130,7 +127,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
                 role.setUsername(user.getUsername());
             }
         }
-
         user = userRepository.save(user);
 
         return userDTOFactory.create(user);

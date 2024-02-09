@@ -1,7 +1,6 @@
 package com.psm.bookingchallenge.services;
 
 import com.psm.bookingchallenge.dtos.PropertyDateBlockDTO;
-
 import java.util.List;
 
 public interface PropertyDateBlockService {

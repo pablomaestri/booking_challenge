@@ -4,13 +4,7 @@ import com.psm.bookingchallenge.dtos.BookingDTO;
 import com.psm.bookingchallenge.dtos.BookingStatusDTO;
 import com.psm.bookingchallenge.dtos.PropertyDTO;
 import com.psm.bookingchallenge.dtos.UserDTO;
-import com.psm.bookingchallenge.factories.models.BookingStatusFactory;
-import com.psm.bookingchallenge.factories.models.PropertyFactory;
-import com.psm.bookingchallenge.factories.models.UserFactory;
 import com.psm.bookingchallenge.models.Booking;
-import com.psm.bookingchallenge.models.BookingStatus;
-import com.psm.bookingchallenge.models.Property;
-import com.psm.bookingchallenge.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

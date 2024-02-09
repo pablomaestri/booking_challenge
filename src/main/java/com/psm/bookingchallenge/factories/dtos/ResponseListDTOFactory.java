@@ -4,7 +4,6 @@ import com.psm.bookingchallenge.dtos.responses.DataDTO;
 import com.psm.bookingchallenge.dtos.responses.ErrorDTO;
 import com.psm.bookingchallenge.dtos.responses.ResponseListDTO;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 
 @Component

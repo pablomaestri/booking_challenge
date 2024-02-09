@@ -2,7 +2,6 @@ package com.psm.bookingchallenge.models;
 
 import jakarta.persistence.*;
 
-
 @Entity
 @Table(name = "roles")
 public class Role {

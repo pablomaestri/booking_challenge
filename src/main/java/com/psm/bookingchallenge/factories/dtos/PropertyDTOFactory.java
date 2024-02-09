@@ -3,11 +3,7 @@ package com.psm.bookingchallenge.factories.dtos;
 import com.psm.bookingchallenge.dtos.PropertyDTO;
 import com.psm.bookingchallenge.dtos.PropertyDateBlockDTO;
 import com.psm.bookingchallenge.dtos.UserDTO;
-import com.psm.bookingchallenge.factories.models.PropertyDateBlockFactory;
-import com.psm.bookingchallenge.factories.models.UserFactory;
 import com.psm.bookingchallenge.models.Property;
-import com.psm.bookingchallenge.models.PropertyDateBlock;
-import com.psm.bookingchallenge.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

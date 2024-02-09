@@ -9,7 +9,6 @@ import com.psm.bookingchallenge.repositories.PropertyRepository;
 import com.psm.bookingchallenge.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

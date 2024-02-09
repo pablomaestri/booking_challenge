@@ -1,9 +1,6 @@
 package com.psm.bookingchallenge.services;
 
 import com.psm.bookingchallenge.dtos.PropertyDTO;
-import com.psm.bookingchallenge.dtos.UserDTO;
-import com.psm.bookingchallenge.models.Property;
-
 import java.util.List;
 
 public interface PropertyService {

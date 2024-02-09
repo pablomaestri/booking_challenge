@@ -1,16 +1,12 @@
 package com.psm.bookingchallenge.services;
 
 import com.psm.bookingchallenge.dtos.PropertyDateBlockDTO;
-import com.psm.bookingchallenge.factories.dtos.PropertyDTOFactory;
 import com.psm.bookingchallenge.factories.dtos.PropertyDateBlockDTOFactory;
 import com.psm.bookingchallenge.factories.models.PropertyDateBlockFactory;
-import com.psm.bookingchallenge.factories.models.PropertyFactory;
 import com.psm.bookingchallenge.models.Property;
 import com.psm.bookingchallenge.models.PropertyDateBlock;
-import com.psm.bookingchallenge.models.User;
 import com.psm.bookingchallenge.repositories.PropertyDateBlockRepository;
 import com.psm.bookingchallenge.repositories.PropertyRepository;
-import com.psm.bookingchallenge.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

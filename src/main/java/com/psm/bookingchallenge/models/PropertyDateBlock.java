@@ -1,7 +1,6 @@
 package com.psm.bookingchallenge.models;
 
 import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
 
 @Entity

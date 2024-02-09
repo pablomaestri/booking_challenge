@@ -1,8 +1,5 @@
 package com.psm.bookingchallenge.dtos.responses;
 
-import com.psm.bookingchallenge.dtos.responses.DataDTO;
-import com.psm.bookingchallenge.dtos.responses.ErrorDTO;
-
 public class ResponseDTO {
     private DataDTO data;
     private ErrorDTO error;

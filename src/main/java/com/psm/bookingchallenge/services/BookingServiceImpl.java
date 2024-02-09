@@ -12,7 +12,6 @@ import com.psm.bookingchallenge.models.enums.RoleEnum;
 import com.psm.bookingchallenge.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

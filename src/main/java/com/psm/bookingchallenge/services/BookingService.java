@@ -4,7 +4,6 @@ import com.psm.bookingchallenge.dtos.BookingDTO;
 import com.psm.bookingchallenge.dtos.requests.ChangeBookingStatusDTO;
 import com.psm.bookingchallenge.dtos.requests.RebookBookingDTO;
 import com.psm.bookingchallenge.dtos.requests.SaveBookingDTO;
-
 import java.util.List;
 
 public interface BookingService {

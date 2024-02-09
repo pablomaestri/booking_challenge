@@ -1,8 +1,6 @@
 package com.psm.bookingchallenge.dtos;
 
 import com.psm.bookingchallenge.dtos.responses.DataDTO;
-import jakarta.persistence.Column;
-
 import java.time.LocalDateTime;
 
 public class BookingDTO implements DataDTO {

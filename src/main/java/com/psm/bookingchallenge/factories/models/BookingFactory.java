@@ -1,9 +1,6 @@
 package com.psm.bookingchallenge.factories.models;
 
 import com.psm.bookingchallenge.dtos.BookingDTO;
-import com.psm.bookingchallenge.dtos.PropertyDTO;
-import com.psm.bookingchallenge.factories.dtos.PropertyDTOFactory;
-import com.psm.bookingchallenge.factories.dtos.UserDTOFactory;
 import com.psm.bookingchallenge.models.Booking;
 import com.psm.bookingchallenge.models.BookingStatus;
 import com.psm.bookingchallenge.models.Property;
@@ -11,7 +8,6 @@ import com.psm.bookingchallenge.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.awt.print.Book;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
